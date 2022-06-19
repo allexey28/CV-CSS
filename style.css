@@ -71,8 +71,8 @@ table {
 .container {
     max-width: 750px;
     margin: auto;
-    display: grid;
-    grid-template-columns: -20px;
+    display: flex;
+    flex-direction: column;
 }
 .bg-yellow {
     background: #fff9dc;
@@ -110,6 +110,7 @@ table {
 }
 .education td {
     padding: 10px;
+    text-align: center;
 }
 
 .work_experience td:nth-child(3) {
