@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Old+Standard+TT&family=Press+Start+2P&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body{
-    background-color: #f1f1f1;
+    background: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png")  repeat;
     color: #0f141e;
     font: normal 16px 'Roboto', sans-serif;
 }
@@ -25,15 +26,21 @@ a:hover{
 }
 .info p{
     color:#596f9a;
-    font-size: 18px;
-    font-family: 'Lobster';
-    font-style: italic;
+    font-family:'Caveat';
+    font-size: 25px;
+    
     text-decoration: underline;
     padding: 0px;
     margin: 10px;
 }
 .info p a {
     color:#596f9a;
+}
+.logo_tg {
+    width: 25px;
+}
+.logo_vk {
+    width: 25px;
 }
 .info h4 {
     font-family: 'Press Start 2P'
@@ -68,7 +75,7 @@ a:hover{
     background: #e5ffe7;
 }
 .bg-blue {
-    background: #92f7f7;
+    background: #bcf9f9;
 }
 .bg-red {
     background: #ffe5e5;
@@ -108,7 +115,7 @@ a:hover{
     font-family: 'Old Standard TT';
     font-size: 17px;
     font-weight: bold;
-    color:#2a923f;
+    color:#163319;
 }
 
 h2 {
@@ -126,7 +133,7 @@ h2 {
 }
 
 ul li a{
-    color:#2a923f;
+    color:#163319;
     font-family: 'Old Standard TT';
     font-size: 17px;
     font-weight: bold;
