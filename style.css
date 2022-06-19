@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Old+Standard+TT&family=Press+Start+2P&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.avatar{
+    width: 240px;
+    border-radius: 28px;
+    box-shadow: 16px 13px 10px 9px rgb(0 0 0 / 25%);
+}
+.info h1 {
+    font-family: 'Press Start 2P';
+}
+.info p{
+    color:#596f9a;
+    font-size: 18px;
+    font-family: 'Lobster';
+    font-style: italic;
+    text-decoration: underline;
+    padding: 0px;
+    margin: 10px;
+}
+.info p a {
+    color:#596f9a;
+}
+.info h4 {
+    font-family: 'Press Start 2P'
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info_text {
+    margin-left: 40px;
+}
+.info_text h4 {
+    margin-bottom: 10px;
+}
+/* Box model */
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-blue {
+    background: #92f7f7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 28px;
+    box-shadow: 14px 14px 16px 0px rgb(0 0 0 / 25%);
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+    list-style: none;
+}
+.list li{
+    padding: 5px;
+    color: #2a923f;
+    font-style: italic;
+    text-align: center;
+}
+
+.education {
+    width: 100%;
+}
+
+.education td {
+    padding: 10px;
+}
+
+.work_experience td:nth-child(3) {
+    padding-bottom: 25px;
+    font-family: 'Old Standard TT';
+    font-size: 17px;
+    font-weight: bold;
+    color:#2a923f;
+}
+
+h2 {
+    font-family:'Press Start 2P';
+    text-align: center;
+}
+
+.card ul{
+    list-style: none;
+}
+
+.card ul li{
+    padding: 4px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul li a{
+    color:#2a923f;
+    font-family: 'Old Standard TT';
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.form-group label {
+    display: block;
+    font-style: 14px;
+    color: #2a923f;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    outline: none;
+    background: transparent;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child{
+    margin-right: 0;
+}
+
+.btn {
+    background: rgb(89, 89, 156);
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font: 25px'Lobster';
+    cursor: pointer;
+}
+.box_btn {
+    text-align: center;
+}
